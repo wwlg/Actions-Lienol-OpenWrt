@@ -34,4 +34,4 @@ git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-ipsec-vpnd package/lean/luci-app-ipsec-vpnd
 
 # 拉取fail2ban插件
-#svn co https://github.com/Lienol/openwrt-packages/trunk/net/fail2ban package/feeds/packages/fail2ban
+svn co https://github.com/Lienol/openwrt-packages/trunk/net/fail2ban package/feeds/packages/fail2ban
