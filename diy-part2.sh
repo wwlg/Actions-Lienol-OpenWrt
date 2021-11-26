@@ -35,4 +35,4 @@ svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-ipsec-vp
 
 # 拉取fail2ban插件
 #svn co https://github.com/Lienol/openwrt-packages/trunk/net/fail2ban package/feeds/packages/fail2ban
-svn co https://github.com/lxhao61/packages/trunk/net/fail2ban package/feeds/packages/fail2ban
+#svn co https://github.com/lxhao61/packages/trunk/net/fail2ban package/feeds/packages/fail2ban
