@@ -25,5 +25,5 @@
 # 注释掉lienol大默认packages源
 sed -i 's/^\(.*packages\)/#&/' feeds.conf.default
 
-# 添加修改的packages源
+# 添加加入fail2ban的packages源
 sed -i '$a src-git packages https://github.com/lxhao61/openwrt-packages.git;19.07' feeds.conf.default
