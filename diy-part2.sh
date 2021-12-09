@@ -21,7 +21,7 @@ sed -i 's/192.168.1.1/192.168.6.1/g' package/base-files/files/bin/config_generat
 #svn co https://github.com/coolsnowwolf/packages/trunk/net/smartdns package/feeds/packages/smartdns
 
 # 删除自带xray-core核心
-rm -rf package/feeds/packages/xray-core
+#rm -rf package/feeds/packages/xray-core
 
 # 拉取passwall源码
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall
