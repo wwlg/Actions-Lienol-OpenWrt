@@ -23,7 +23,7 @@
 #sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall.git' feeds.conf.default
 
 # 注释掉lienol大默认packages源
-sed -i 's/^\(.*packages\)/#&/' feeds.conf.default
+#sed -i 's/^\(.*packages\)/#&/' feeds.conf.default
 
 # 添加加入fail2ban的packages源
-sed -i '$a src-git packages https://github.com/lxhao61/openwrt-packages.git;19.07' feeds.conf.default
+#sed -i '$a src-git packages https://github.com/lxhao61/openwrt-packages.git;19.07' feeds.conf.default
