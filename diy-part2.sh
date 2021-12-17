@@ -26,6 +26,12 @@ sed -i 's/192.168.1.1/192.168.6.1/g' package/base-files/files/bin/config_generat
 # 拉取Lean大softethervpn5插件
 #svn co https://github.com/coolsnowwolf/packages/trunk/net/softethervpn5 feeds/packages/net/softethervpn5
 
+# 删除原版luci-app-softethervpn插件
+rm -rf package/lienol/luci-app-softethervpn
+
+# 拉取修改后的luci-app-softethervpn插件
+svn co https://github.com/lxhao61/openwrt-package/trunk/luci-app-softethervpn package/lienol/luci-app-softethervpn
+
 # 删除自带xray-core核心
 rm -rf package/feeds/packages/xray-core
 
