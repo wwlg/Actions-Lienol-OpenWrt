@@ -21,10 +21,10 @@ sed -i 's/192.168.1.1/192.168.6.1/g' package/base-files/files/bin/config_generat
 #svn co https://github.com/coolsnowwolf/packages/trunk/net/smartdns package/feeds/packages/smartdns
 
 # 删除原版softethervpn插件
-rm -rf feeds/packages/net/softethervpn
+#rm -rf feeds/packages/net/softethervpn
 
 # 拉取softethervpn升级插件
-svn co https://github.com/lxhao61/packages-1/trunk/net/softethervpn feeds/packages/net/softethervpn
+#svn co https://github.com/lxhao61/packages-1/trunk/net/softethervpn feeds/packages/net/softethervpn
 
 # 删除原版softethervpn5插件
 rm -rf feeds/packages/net/softethervpn5
