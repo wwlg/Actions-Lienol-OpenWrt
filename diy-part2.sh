@@ -27,10 +27,10 @@ rm -rf feeds/packages/net/softethervpn5
 svn co https://github.com/coolsnowwolf/packages/trunk/net/softethervpn5 feeds/packages/net/softethervpn5
 
 # 删除原版luci-app-softethervpn插件
-#rm -rf feeds/lienol/luci-app-softethervpn
+rm -rf feeds/lienol/luci-app-softethervpn
 
 # 拉取修改后的luci-app-softethervpn插件
-#svn co https://github.com/lxhao61/lede/trunk/package/lean/luci-app-softethervpn feeds/lienol/luci-app-softethervpn
+svn co https://github.com/lxhao61/lede/trunk/package/lean/luci-app-softethervpn feeds/lienol/luci-app-softethervpn
 
 # 删除自带xray-core核心
 rm -rf package/feeds/packages/xray-core
